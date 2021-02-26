@@ -1,4 +1,6 @@
-<main>
+<?php
+require 'includes/header.php';
+?>
 <body>
     <link rel = "stylesheet" href= "css/about.css">
 
@@ -50,4 +52,3 @@
 
     </div>
     </body>
-</main>
