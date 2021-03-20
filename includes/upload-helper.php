@@ -12,7 +12,7 @@ if(isset($_POST['prof-submit'])){
     $file_name = $file['name'];
     $file_tmp_name =$file['tmp_name'];
     $file_error = $file['error'];
-    $file_size = $file['sie'];
+    $file_size = $file['size'];
 
     $ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
     
